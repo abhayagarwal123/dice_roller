@@ -397,7 +397,7 @@ class result extends StatefulWidget{
 class _resultState extends State<result> {
   @override
   Widget build(BuildContext context) {
-    int val=Random().nextInt(5)+1;
+    int val=Random().nextInt(6)+1;
 
     if(val==1){
       return dice1();
